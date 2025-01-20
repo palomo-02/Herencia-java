@@ -1,4 +1,4 @@
-package boletin10;
+package pruebaAnimales;
 
 public class Perro extends Animal {
 
