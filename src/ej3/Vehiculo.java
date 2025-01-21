@@ -2,8 +2,8 @@ package ej3;
 
 public class Vehiculo {
 
-	private int velocidadMaxima;
-private String modelo;
+	protected int velocidadMaxima;
+protected String modelo;
 
 
 
