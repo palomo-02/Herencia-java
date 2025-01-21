@@ -5,7 +5,7 @@ public class EmpleadoComision extends EmpleadoBase {
 	private double porcentaje;
 	private double ventas;
 
-	public EmpleadoComision(String nombre, int salario, double porcentaje) {
+	public EmpleadoComision(String nombre, int salario, double porcentaje, double ventas) {
 		super(nombre, salario);
 		setPorcentaje(porcentaje);
 		setVentas(ventas);

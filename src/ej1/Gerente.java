@@ -1,11 +1,10 @@
 package ej1;
 
 public class Gerente extends EmpleadoComision {
-
 	private int bono;
 
-	public Gerente(String nombre, int salario, double porcentaje, int bono) {
-		super(nombre, salario, porcentaje);
+	public Gerente(String nombre, int salario, double porcentaje, double ventas, int bono) {
+		super(nombre, salario, porcentaje, ventas);
 
 		setBono(bono);
 
