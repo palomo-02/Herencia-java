@@ -26,5 +26,18 @@ public class Libro extends Publicacion {
 
 		System.out.println("el tiempo que ha pasado desde su publicacion es de : "+tiempo+"");
 	}
+	
+	public void mostrar() {
+		
+		System.out.println("el titulo es: "+titulo);
+		System.out.println("el año de publicacion es: "+año);
+		System.out.println("el nombre del autor es: "+autor);
+
+
+		
+		
+	}
+	
+	
 
 }
