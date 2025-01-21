@@ -13,7 +13,7 @@ public class Coche extends Vehiculo {
 		System.out.println("marca: "+Marca);
 		System.out.println("modelo: "+Modelo);
 		System.out.println("tiene estas puertas: "+puertas);
-System.out.println("__________________");
+System.out.println("__________________________");
 	}
 
 }
