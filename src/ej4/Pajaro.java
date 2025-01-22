@@ -8,7 +8,7 @@ public class Pajaro extends Animal {
 	
 	public Pajaro(String nombre, int peso, String raza) {
 		super(nombre, peso);
-		getRaza();
+		setRaza(raza);
 	}
 
 

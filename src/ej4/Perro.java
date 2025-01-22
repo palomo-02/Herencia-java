@@ -9,7 +9,7 @@ public class Perro extends Animal {
 	
 	public Perro(String nombre, int peso,String pedigri) {
 		super(nombre, peso);
-		getPedigri();
+		setPedigri(pedigri);
 	
 	}
 
